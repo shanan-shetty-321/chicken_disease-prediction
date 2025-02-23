@@ -6,7 +6,8 @@ from pathlib import Path
 
 logging.basicConfig(level=logging.INFO,format='[%(asctime)s]: %(message)s:')
 #initialize logging level to information level
-
+#it prints log in terminal , as it is an info log , it will show timestamp with logging message
+#we will store logs
 project_name="chickendisease"
 list_of_files=[   #all files and folder needed in project can be defined here
     ".github/workflows/.gitkeep",
@@ -64,7 +65,7 @@ list_of_files=[   #all files and folder needed in project can be defined here
     "requirements.txt",#it will have all the requirement package of code
     "setup.py",
     "research/trial.ipynb",#doing some notebook experiment
-    "test.py"
+    "templates/index.html"
 ]
 
 
