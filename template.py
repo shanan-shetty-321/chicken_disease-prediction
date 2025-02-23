@@ -63,8 +63,8 @@ list_of_files=[   #all files and folder needed in project can be defined here
     "params.yaml",# for parameters
     "requirements.txt",#it will have all the requirement package of code
     "setup.py",
-    "research/trial.ipynb"#doing some notebook experiment
-
+    "research/trial.ipynb",#doing some notebook experiment
+    "test.py"
 ]
 
 
